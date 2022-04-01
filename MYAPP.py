@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as pandas
+import pandas as pd
 
 df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
 
