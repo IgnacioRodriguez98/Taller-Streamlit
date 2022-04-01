@@ -7,7 +7,7 @@ st.title("Mi primer app")
 st.write(""" # My first app 
 #Hello *world!*""")
 
-st.latex("\int_1^6")
+st.latex("\int_1^6 sin(x)dx")
 if st.button("No hacer clic"):
     st.write("Te dije que no lo hicieras")
 else:
