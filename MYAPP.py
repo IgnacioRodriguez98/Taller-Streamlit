@@ -5,7 +5,7 @@ import pandas as pd
 
 st.title("Mi primer app")
 st.write(""" # My first app 
-#Hello *world!*""")
+Hello *world!*""")
 
 st.latex("\int_1^6 sin(x)dx")
 if st.button("No hacer clic"):
