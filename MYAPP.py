@@ -14,3 +14,4 @@ else:
 
 st.button("Entrar a los recursos")
 st.write(df)
+st.map(df)
