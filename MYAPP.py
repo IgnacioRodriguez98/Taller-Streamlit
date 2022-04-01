@@ -14,8 +14,8 @@ if click == True:
     st.image("https://www.elsoldetlaxcala.com.mx/incoming/j3sdgs-perrito.jpg/ALTERNATES/LANDSCAPE_1140/perrito.jpg")
 
 ##################################Uso de Slider ##########################
-num1 = st.slider("Escoge el primer número",0,300,15)
-num2 = st.slider("Escoge el segundo número",0,300,15)
+num1 = st.slider("Escoge el primer número",0.0,300.0,15.0)
+num2 = st.slider("Escoge el segundo número",0.0,300.0,15.0)
 
 st.write("La suma de esos números es:", num1+num2)
 
