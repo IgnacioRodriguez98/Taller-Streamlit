@@ -15,7 +15,7 @@ if click == True:
 
 ##################################Uso de Slider ##########################
 st.write(""" # Calculadora
-##Suma""")
+## Suma""")
 num1 = st.slider("Escoge el primer número",0.0,300.0,15.0)
 num2 = st.slider("Escoge el segundo número",0.0,300.0,15.0)
 st.write("La suma de esos números es:", num1+num2)
