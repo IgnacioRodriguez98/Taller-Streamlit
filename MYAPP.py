@@ -5,9 +5,9 @@ import pandas as pd
 
 st.title("Mi primer app")
 st.write(""" # My first app 
-#Hello *world!*
-#""")
+#Hello *world!*""")
 
+st.latex("\int_1^6")
 if st.button("No hacer clic"):
     st.write("Te dije que no lo hicieras")
 else:
