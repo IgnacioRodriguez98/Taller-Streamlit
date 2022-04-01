@@ -14,7 +14,7 @@ if click == True:
     st.image("https://www.elsoldetlaxcala.com.mx/incoming/j3sdgs-perrito.jpg/ALTERNATES/LANDSCAPE_1140/perrito.jpg")
 
 ##################################Uso de Slider ##########################
-st,write("""#Calculadora
+st,write("""# Calculadora
 ## Suma""")
 num1 = st.slider("Escoge el primer número",0.0,300.0,15.0)
 num2 = st.slider("Escoge el segundo número",0.0,300.0,15.0)
