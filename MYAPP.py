@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pandas
 
-df= pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
 
 st.title("Mi primer app")
 st.write(""" # My first app 
@@ -13,3 +13,4 @@ else:
     st.write("Gracias por no hacer clic")
 
 st.button("Entrar a los recursos")
+st.write(df)
