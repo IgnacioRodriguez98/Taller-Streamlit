@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-#df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
 ########################### Uso de titulo y write#############################################
 st.title("Mi primer app")
 st.write(""" # My first app 
