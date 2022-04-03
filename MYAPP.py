@@ -43,7 +43,7 @@ with st.sidebar:
 
 
 
-st.latex("\int_1^6 sin(x)dx")
+st.write("\int_1^6 sin(x)dx")
 if st.button("No hacer clic"):
     st.write("Te dije que no lo hicieras")
 else:
