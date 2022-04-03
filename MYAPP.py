@@ -49,8 +49,8 @@ if st.button("No hacer clic"):
 else:
     st.write("Gracias por no hacer clic")
 
-#st.button("Entrar a los recursos")
-#st.write(df)
-#st.map(df)
-#st.markdown("""# Este es un titulo
-#""")
+st.button("Entrar a los recursos")
+st.write(df)
+st.map(df)
+st.markdown("""# Este es un titulo
+""")
